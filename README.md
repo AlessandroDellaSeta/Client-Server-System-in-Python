@@ -14,7 +14,7 @@ the client requests. On the contrary, the client can be either “user” or “
 it can only ask the server to show the information on the database. If the client is “administrator”, it can modify the
 database information too. The client must know the username and the password in order to become “administrator”.
 
-The connection protocol used for this project is socket communication similar TCP(Transmission Control Protocol). 
+The connection protocol used for this project is a socket communication similar to TCP(Transmission Control Protocol). 
 
 ![alt text](http://www.h3c.com.hk/res/200812/31/20081231_709864_image002_624110_57_0.png)
 
