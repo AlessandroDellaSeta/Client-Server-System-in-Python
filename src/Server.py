@@ -1,4 +1,4 @@
-import psycopg2 as psycopg2
+import psycopg2 
 import zmq
 import os
 
@@ -65,8 +65,8 @@ def insert(conn, cursor, name, lastname, SSN, job, pay):
 def delete(conn, cursor, id):
     val = "'" + '%' + id + '%' + "'"
 
-    query = ("""DELETE FROM "Employee" WHERE "SSN" = """ + val)
-    cursor.execute(query, id)
+    query = ("""DELETE FROM "Employee" WHERE "SSN" = %s""")
+    cursor.execute(query, (id,))
     conn.commit()
     print(cursor.rowcount, "record(s) deleted")
 
@@ -96,7 +96,7 @@ def connected(socket):
         psw = communication()
 
         check = admincheck(user, psw)
-        print(admin)
+        #print(admin)
         if check:
             admin = True
             break
@@ -109,24 +109,25 @@ def connected(socket):
                 socket.send.string("Too many tries!! Press Enter to continue")
                 communication()
                 break
+
     database = readFile("database")
 
     while True:
         try:
-
             conn = psycopg2.connect(database)
-
+            print("Connected to Database")
         except:
             print("IMPOSSIBLE to connect to the database")
             break
 
-        # Define a cursor for database
+        # Define a cursor for navigate inside the database
         cursor = conn.cursor()
 
         socket.send_string("What operation do you want to perform? (i=insert; s=search; d=delete) "
                            "\n NOTE: only admin can INSERT or DELETE ")
         message = communication()
         mes = message.lower()
+        print(mes)
 
         if mes == "s":
             socket.send_string("Who are you looking for? ")
@@ -185,13 +186,14 @@ def connected(socket):
             answer = "\033[1;31;40mWrong command.\x1b[0m "
 
         send = str(answer)
-        # Send reply back to client and ask him if want to perform other action
+        # Send reply back to client and ask him if he wants to perform other action
         socket.send_string(send + '\n' + "Do you want continue y/n: ")
         mess = communication()
 
         if mess == 'y':
             continue
         else:
+            print("Connection with client closed")
             socket.send_string("close")
             socket.close()
 
@@ -200,7 +202,9 @@ def connected(socket):
 if __name__ == "__main__":
     readFile("admin")
 
+
     while True:
+        print("waiting...")
         context = zmq.Context()
         socket = context.socket(zmq.REP)
         socket.bind("tcp://*:5555")

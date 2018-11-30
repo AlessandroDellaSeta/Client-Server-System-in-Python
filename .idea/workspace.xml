@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31866774-4f69-4cc4-aa74-eba68d6149ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Client-Server-System-in-Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Client-Server-System-in-Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.py" afterDir="false" />
@@ -14,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Client_Server_System_in_Python$Client.coverage" NAME="Client Coverage Results" MODIFIED="1542836679647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Client_Server_System_in_Python$Client.coverage" NAME="Client Coverage Results" MODIFIED="1543516494564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/Client_Server_System_in_Python$Server.coverage" NAME="Server Coverage Results" MODIFIED="1542836677853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FavoritesManager">
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-263">
-              <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+            <state relative-caret-position="345">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -37,10 +38,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2880">
-              <caret line="194" column="39" lean-forward="true" selection-start-line="194" selection-start-column="39" selection-end-line="194" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
               <folding>
-                <marker date="1542836677760" expanded="true" signature="1075:1593" ph="..." />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,7 +52,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="45">
-                <caret line="3" column="598" selection-start-line="3" selection-start-column="598" selection-end-line="3" selection-end-column="598" />
+                <caret line="3" lean-forward="true" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="124" />
               </first_editor>
               <second_editor />
             </state>
@@ -62,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/setting.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="105" selection-start-column="105" selection-end-column="105" />
+              <caret selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -80,14 +81,14 @@
         <option value="$PROJECT_DIR$/src/password" />
         <option value="$PROJECT_DIR$/src/setting.properties" />
         <option value="$PROJECT_DIR$/src/setting.ini" />
-        <option value="$PROJECT_DIR$/src/Client.py" />
         <option value="$PROJECT_DIR$/setting.ini" />
+        <option value="$PROJECT_DIR$/src/Client.py" />
         <option value="$PROJECT_DIR$/src/Server.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="24" />
     <option name="width" value="1364" />
     <option name="height" value="691" />
@@ -205,12 +206,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541800616189</updated>
-      <workItem from="1542834351042" duration="2700000" />
+      <workItem from="1542834351042" duration="3014000" />
+      <workItem from="1543516446282" duration="349000" />
+      <workItem from="1543530147998" duration="1847000" />
+      <workItem from="1543534106603" duration="2266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2700000" />
+    <option name="totallyTimeSpent" value="7476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -222,21 +226,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1364" height="691" extended-state="1" />
+    <frame x="0" y="25" width="1366" height="706" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910873" visible="true" weight="0.2936267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910873" visible="true" weight="0.05151515" />
       <window_info id="Structure" order="1" sideWeight="0.501292" side_tool="true" weight="0.27996966" />
       <window_info id="Favorites" order="2" sideWeight="0.50089127" side_tool="true" weight="0.27996966" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32976827" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30960855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3084922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3262032" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.348135" />
@@ -247,19 +251,15 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="R Graphics" order="5" />
+      <window_info anchor="right" id="R Packages" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/psycopg2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/psycopg2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/status_codes.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -272,20 +272,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/password" />
     <entry file="file://$PROJECT_DIR$/src/database" />
-    <entry file="file://$PROJECT_DIR$/src/Server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="194" column="39" lean-forward="true" selection-start-line="194" selection-start-column="39" selection-end-line="194" selection-end-column="39" />
-          <folding>
-            <marker date="1542836677760" expanded="true" signature="1075:1593" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/tcp-handshake-diagram.png" />
     <entry file="file://$PROJECT_DIR$/src/Client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        <state relative-caret-position="345">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -295,7 +286,17 @@
     <entry file="file://$PROJECT_DIR$/setting.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="105" selection-start-column="105" selection-end-column="105" />
+          <caret selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -303,7 +304,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="45">
-            <caret line="3" column="598" selection-start-line="3" selection-start-column="598" selection-end-line="3" selection-end-column="598" />
+            <caret line="3" lean-forward="true" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="124" />
           </first_editor>
           <second_editor />
         </state>

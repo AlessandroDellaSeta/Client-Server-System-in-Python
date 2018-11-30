@@ -5,7 +5,7 @@ import zmq
 def communication(name):
     socket.send_string(name)
     message = socket.recv()
-    message = message.decode("utf-8") #decode the char format from Server
+    message = message.decode("utf-8") #decode the data from Server in a String
     return message
 
 
@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
     try:
         while (True):
-            if message == "Please insert password: ":  # iff the server ask a password the client uses the hidden input mode
+            if message == "Please insert Password: ":  # iff the server ask a password the client uses the hidden input mode
                 operation = getpass.getpass()
             else:
                 operation = input("")
